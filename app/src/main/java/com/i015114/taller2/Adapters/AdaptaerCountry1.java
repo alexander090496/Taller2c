@@ -39,7 +39,7 @@ public class AdaptaerCountry1 extends RecyclerView.Adapter<AdaptaerCountry1.View
         holder.textViewName.setText(country1List.get(position).getName());
         holder.textViewCapital.setText(country1List.get(position).getCapital());
         holder.textViewAlphs.setText(country1List.get(position).getAlphacode());
-        holder.textViewpopulation.setText(country1List.get(position).getPopulation());
+        holder.textViewpopulation.setText(""+country1List.get(position).getPopulation());
         holder.textViewsubregion.setText(country1List.get(position).getSubregion());
     }
     @Override

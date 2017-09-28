@@ -6,11 +6,11 @@
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
     android:padding="10dp"
-    android:background="@android:color/holo_blue_light">
+    android:background="@drawable/border" >
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/lotw_flags"
         android:layout_marginRight="10dp"/>
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,21 +19,23 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            >
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Pais:"
                 android:textStyle="bold"
                 android:textSize="20sp"
-                android:textColor="@android:color/white"/>
+                android:textColor="@android:color/background_dark"
+                />
             <TextView
                 android:id="@+id/id_tv_item_namecountry"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Colombia"
                 android:textSize="20sp"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/background_dark"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
         <LinearLayout
@@ -46,14 +48,14 @@
                 android:text="Capital:"
                 android:textStyle="bold"
                 android:textSize="20sp"
-                android:textColor="@android:color/white"/>
+                android:textColor="@android:color/background_dark"/>
             <TextView
                 android:id="@+id/id_tv_item_namecapital"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Bogota"
                 android:textSize="20sp"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/background_dark"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
         <LinearLayout
@@ -66,14 +68,14 @@
                 android:text="Abreviatura:"
                 android:textStyle="bold"
                 android:textSize="20sp"
-                android:textColor="@android:color/white"/>
+                android:textColor="@android:color/background_dark"/>
             <TextView
                 android:id="@+id/id_tv_item_nameabbreviation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="COL"
                 android:textSize="20sp"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/background_dark"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
         <LinearLayout
@@ -86,14 +88,14 @@
                 android:text="Poblacion:"
                 android:textStyle="bold"
                 android:textSize="20sp"
-                android:textColor="@android:color/white"/>
+                android:textColor="@android:color/background_dark"/>
             <TextView
                 android:id="@+id/id_tv_item_poblacion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="456789"
                 android:textSize="20sp"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/background_dark"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
         <LinearLayout
@@ -106,14 +108,14 @@
                 android:text="subregion:"
                 android:textStyle="bold"
                 android:textSize="20sp"
-                android:textColor="@android:color/white"/>
+                android:textColor="@android:color/background_dark"/>
             <TextView
                 android:id="@+id/id_tv_item_subregion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="bogota"
                 android:textSize="20sp"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/background_dark"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
     </LinearLayout>

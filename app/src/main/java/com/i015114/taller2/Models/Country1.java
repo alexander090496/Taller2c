@@ -8,7 +8,7 @@ public class Country1 {
     private String name;
     private String capital;
     private String alphacode;
-    private Integer population;
+    private int population;
     private String subregion;
 
     public String getName() {
@@ -35,11 +35,11 @@ public class Country1 {
         this.alphacode = alphacode;
     }
 
-    public Integer getPopulation() {
+    public int getPopulation() {
         return population;
     }
 
-    public void setPopulation(Integer population) {
+    public void setPopulation(int population) {
         this.population = population;
     }
 
